@@ -1,0 +1,32 @@
+    .categories{
+        display: flex;
+        box-sizing: border-box;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+        flex-Direction: column;
+    }
+    .img{
+        width:5rem;
+        height:5rem;
+        padding: 0.5rem;
+        /* margin: 0.5rem; */
+        margin: auto;
+    }
+    .span{
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+    .category{
+        display: flex;
+        cursor: pointer;
+        padding: .2rem;
+        margin: .2rem;
+        align-items: center;
+        justify-Content: center
+       
+    }
+    
+
+

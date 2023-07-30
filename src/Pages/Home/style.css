@@ -1,0 +1,30 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+    box-sizing: border-box;
+}
+
+.header{
+    /* background-image: url("https://dev.boka.co/_next/image/?url=%2Fbg.png&w=1920&q=75"); */
+    background-color: rgb(234, 197, 129);
+    height: 600px;
+}
+h1{
+font-size: xx-large;
+color: white    ;
+}
+.page{
+    display: flex;
+    flex-direction: column;
+}
+.photo{
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+@media(max-width:768px){
+    h1{
+        display: none;
+    }
+}
